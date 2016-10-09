@@ -1,0 +1,195 @@
+html, body {
+    border: 0;
+    font: inherit;
+    font-size: 100%;
+    margin: 0;
+    padding: 0;
+    vertical-align: baseline;
+}
+
+body {
+    background-color: #ffffff;
+    font-family: Abhaya Libre;
+}
+
+h1 {
+    font-family: Abhaya Libre,serif;
+    color:white;
+}
+
+p {
+    font-size: 2em;
+    font-family: Antic,sans-serif;
+    margin-left: 20px;
+    color: #ed7021;
+}
+
+
+/**********************/
+/* styling by section */
+/**********************/
+
+#top {
+    background-color: #ffffff;
+    top: 0px;
+    width: 100%;
+
+
+}
+
+#banner {
+    background-color:#2476D7;
+    color: #ffffff;
+    height: 180px;
+    width: 100%;
+    display: inline block;
+    border-bottom: solid 2px;
+}
+
+#banner > h1 {
+    font-family: Abhaya Libre, serif;
+    margin-top: 0;
+    margin-right: auto;
+    margin-bottom: 0;
+    margin-left: auto;
+    max-width: 960px;
+    padding-bottom: 0.5em;
+    padding-top: 0.5em;
+    color: black;
+    float:right;
+}
+
+.seal {
+    float: left;
+    margin-left: 400px;
+    margin-top:10px;
+}
+
+.text {
+    width: 100%;
+}
+
+.text > h1 {
+    font-family: 'PT Serif';
+    float: left;
+    margin-left: 30px;
+    margin-top: 70px;
+    font-size: 3em;
+}
+
+.box1 {
+    margin-left: 7px;
+    width: 600px;
+    height: 400px;
+    float:left;
+    border: solid 2px;
+    border-color: #ed7021;
+    margin-right: 70px;
+    padding-left: 10px;
+    padding-top: 100px;
+    text-align: center;
+
+}
+
+.box2{
+    height: 400px;
+    width: 600px;
+    float: right;
+    border: solid 2px;
+    border-color: #ed7021;
+    margin-left: 70px;
+    padding-top: 100px;
+    padding-left: 10px;
+    text-align: center;
+}
+
+
+
+#container {
+    width: 100%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+#content {
+
+    max-width: 960px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 9em;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+
+}
+
+#center > h1 {
+    font-size: 2.25em;
+    margin-bottom: 0;
+}
+
+
+#center > p {
+    margin-top: 0;
+}
+
+/*search style*/
+	#tfheader{
+		background-color:#c3dfef;
+        /*display: block;
+        position: absolute;*/
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+	}
+	#tfnewsearch{
+        margin: 0 auto;
+        display: block;
+		text-align:center;
+		padding:20px;
+	}
+	.tftextinput2{
+		margin: 0;
+		padding: 15px 40px;
+		font-family: Abhaya Libre, sans-serif;
+		font-size:1.2em;
+		color:#666;
+		border:1px solid #0076a3; border-right:0px;
+		border-top-left-radius: 5px 5px;
+		border-bottom-left-radius: 5px 5px;
+	}
+	.tfbutton2 {
+		margin: 0px;
+		padding: 17px 13px;
+		font-family: Abhaya Libre, sans-serif;
+		font-size:14px;
+		font-weight:bold;
+		outline: none;
+		cursor: pointer;
+		text-align: center;
+		text-decoration: none;
+		color: #ffffff;
+		border: solid 1px #ed7021; border-right:0px;
+		background: #ed7021;
+		background: -webkit-gradient(linear, left top, left bottom, from(#ed7021), to(#de691f));
+		background: -moz-linear-gradient(top,  #ed7021,  #de691f);
+		border-top-right-radius: 5px 5px;
+		border-bottom-right-radius: 5px 5px;
+	}
+	.tfbutton2:hover {
+		text-decoration: none;
+		background: #ff7924;
+		background: -webkit-gradient(linear, left top, left bottom, from(#ff7924), to(#ff7924));
+		background: -moz-linear-gradient(top,  #ff7924,  #ff7924);
+	}
+	/* Fixes submit button height problem in Firefox */
+	.tfbutton2::-moz-focus-inner {
+	  border: 0;
+	}
+	.tfclear{
+		clear:both;
+	}
+/*end of search style*/
+}
